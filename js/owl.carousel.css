@@ -1,0 +1,49 @@
+/*
+Error: File to import not found or unreadable: core.
+        on line 1 of owl.carousel.scss
+
+1: @import 'core';
+2: @import 'animate';
+3: @import 'autoheight';
+4: @import 'lazyload';
+5: @import 'video';
+
+Backtrace:
+owl.carousel.scss:1
+C:/Ruby34-x64/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/tree/import_node.rb:67:in 'Sass::Tree::ImportNode#import'
+C:/Ruby34-x64/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/tree/import_node.rb:28:in 'Sass::Tree::ImportNode#imported_file'
+C:/Ruby34-x64/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/tree/import_node.rb:37:in 'Sass::Tree::ImportNode#css_import?'
+C:/Ruby34-x64/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:310:in 'Sass::Tree::Visitors::Perform#visit_import'
+C:/Ruby34-x64/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in 'Sass::Tree::Visitors::Base#visit'
+C:/Ruby34-x64/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in 'block in Sass::Tree::Visitors::Perform#visit'
+C:/Ruby34-x64/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in 'block in Sass::Stack#with_base'
+C:/Ruby34-x64/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/stack.rb:135:in 'Sass::Stack#with_frame'
+C:/Ruby34-x64/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in 'Sass::Stack#with_base'
+C:/Ruby34-x64/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in 'Sass::Tree::Visitors::Perform#visit'
+C:/Ruby34-x64/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in 'block in Sass::Tree::Visitors::Base#visit_children'
+C:/Ruby34-x64/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in 'Array#map'
+C:/Ruby34-x64/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in 'Sass::Tree::Visitors::Base#visit_children'
+C:/Ruby34-x64/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:167:in 'block in Sass::Tree::Visitors::Perform#visit_children'
+C:/Ruby34-x64/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:179:in 'Sass::Tree::Visitors::Perform#with_environment'
+C:/Ruby34-x64/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:166:in 'Sass::Tree::Visitors::Perform#visit_children'
+C:/Ruby34-x64/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in 'block in Sass::Tree::Visitors::Base#visit'
+C:/Ruby34-x64/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:186:in 'Sass::Tree::Visitors::Perform#visit_root'
+C:/Ruby34-x64/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in 'Sass::Tree::Visitors::Base#visit'
+C:/Ruby34-x64/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:157:in 'Sass::Tree::Visitors::Perform#visit'
+C:/Ruby34-x64/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:10:in 'Sass::Tree::Visitors::Perform.visit'
+C:/Ruby34-x64/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/tree/root_node.rb:36:in 'Sass::Tree::RootNode#css_tree'
+C:/Ruby34-x64/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/tree/root_node.rb:29:in 'Sass::Tree::RootNode#render_with_sourcemap'
+C:/Ruby34-x64/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/engine.rb:389:in 'Sass::Engine#_render_with_sourcemap'
+C:/Ruby34-x64/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/engine.rb:307:in 'Sass::Engine#render_with_sourcemap'
+C:/Ruby34-x64/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/exec/sass_scss.rb:387:in 'Sass::Exec::SassScss#run'
+C:/Ruby34-x64/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/exec/sass_scss.rb:63:in 'Sass::Exec::SassScss#process_result'
+C:/Ruby34-x64/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/exec/base.rb:50:in 'Sass::Exec::Base#parse'
+C:/Ruby34-x64/lib/ruby/gems/3.4.0/gems/sass-3.7.4/lib/sass/exec/base.rb:18:in 'Sass::Exec::Base#parse!'
+C:/Ruby34-x64/lib/ruby/gems/3.4.0/gems/sass-3.7.4/bin/scss:13:in '<top (required)>'
+C:/Ruby34-x64/bin/scss:36:in 'Kernel#load'
+C:/Ruby34-x64/bin/scss:36:in '<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: File to import not found or unreadable: core.\A         on line 1 of owl.carousel.scss\A \A 1: @import 'core';\A 2: @import 'animate';\A 3: @import 'autoheight';\A 4: @import 'lazyload';\A 5: @import 'video';"; }
